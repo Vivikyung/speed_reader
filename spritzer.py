@@ -44,7 +44,7 @@ class WordGenerator:
 
 	def centering(self):
 		'''
-		Highlights the focus letter in orange
+		Highlights the focus letter in red
 		'''
 		focus = 0
 		for x in wordList:	
@@ -58,7 +58,7 @@ class WordGenerator:
 				focus = 2
 			else:
 				focus = 1
-			x[focus].color = "orange"
+			x[focus].color = "red"
 
 
 def animate_text(gen,width,height,size,delay):
